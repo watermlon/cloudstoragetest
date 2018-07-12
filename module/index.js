@@ -14,6 +14,8 @@ db.on('open',function(){
     console.log('链接成功')
 })
 const file = require('./file')
+const floder = require('./floder')
 module.exports = {
-    file
+    file,
+    floder
 }

@@ -7,6 +7,7 @@ const fileMod = require('./module/index').file
 const config = require('./config')
 const log4js = require('log4js')
 const logger = require('./log')
+const router = require('./controles/index')
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {
         cb(null, config.filePath)
@@ -48,6 +49,7 @@ app.post('/upload', function (req, res, next) {
         // 一切都好
     })
 })
+app.use('/',router)
 //错误处理
 app.use(function(err, req, res, next) {
     console.error('错误',err)
