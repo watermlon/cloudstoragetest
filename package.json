@@ -1,0 +1,24 @@
+{
+  "name": "cloud_storage_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/watermlon/cloudstoragetest.git"
+  },
+  "author": "zhc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/watermlon/cloudstoragetest/issues"
+  },
+  "homepage": "https://github.com/watermlon/cloudstoragetest#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "multer": "^1.3.1"
+  }
+}
