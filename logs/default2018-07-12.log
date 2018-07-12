@@ -1,0 +1,7 @@
+[2018-07-12T19:01:53.808] [INFO] default - POST /upload
+[2018-07-12T19:04:22.009] [INFO] default - file name:zhty-seller-web.iml,file path:e://cloudPan/cloudstoragetest/public
+[2018-07-12T19:04:22.024] [INFO] default - POST /upload
+[2018-07-12T19:05:29.468] [INFO] default - file name:pingpp-android-master.zip,file path:e://cloudPan/cloudstoragetest/public/pingpp-android-master.zip
+[2018-07-12T19:05:29.485] [INFO] default - POST /upload
+[2018-07-12T19:07:29.670] [INFO] default - file_name:pingpp-js-master.zip,file_path:e://cloudPan/cloudstoragetest/public/pingpp-js-master.zip,file_size:413185
+[2018-07-12T19:07:29.686] [INFO] default - POST /upload

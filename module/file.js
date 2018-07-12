@@ -7,3 +7,4 @@ let file = mongoose.Schema({
     size:Number
 })
 let fileModel = mongoose.model('file', file,'file')
+module.exports = fileModel
