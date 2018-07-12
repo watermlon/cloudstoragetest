@@ -2,6 +2,7 @@ const Express = require('express');
 const app = Express();
 const multer = require('multer');
 const bodyParser = require('body-parser')
+const fileMod = require('./module/index').file
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {
         cb(null, './public')
